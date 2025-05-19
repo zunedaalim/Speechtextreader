@@ -72,7 +72,9 @@ box.addEventListener('click',()=>{
     setTimeout(()=>box.classList.remove('active'),800);
     });
 main.appendChild(box);
+
 }
+
 
 // Initialising speech synthesis utterance
 const message= new SpeechSynthesisUtterance();
